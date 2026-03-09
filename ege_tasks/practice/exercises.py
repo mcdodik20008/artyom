@@ -136,6 +136,7 @@ print(f"  Сумма: {total}")
 
 print("\nОТВЕТ 3:")
 count = 0
+
 for i in range(len(numbers) - 1):
     if numbers[i] > 10 and numbers[i+1] > 10:
         if (numbers[i] + numbers[i+1]) % 3 == 0:
